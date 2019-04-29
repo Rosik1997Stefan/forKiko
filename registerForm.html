@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="icon" href="images/favicon-32x32.png">
+    <title>Register</title>
+</head>
+<body>
+	<div class="mynav">
+		<div class="Meni flexMeni">
+			<span class="navbar-brand yellowText" data-toggle="modal" data-target="#myModal">&#9776; Мени</span>
+		</div>
+		<div class="LOGO flexIMG">
+			<a href="index.html"><img src="images/logo.png" alt="Picture of Company Logo"></a>
+		</div>
+		<div class="Buttons flexbtn">
+			<a href="https://www.brainster.io/business" target="_blank" class="yLink">Обуки за компании</a>
+			<a href="https://www.brainster.io/business" target="_blank" class="bLink bLink2">Вработи наши студенти</a>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row padtopRegister registerBG">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center pdtp4 buttons2 hidden-lg hidden-md">
+				<a href="https://www.brainster.io/business" class="yLink yLink2">Обуки за компании</a>
+				<a href="https://www.brainster.io/business" class="bLink bLink2 registerbLink2">Вработи наши студенти</a>
+			</div>
+					<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 form pdtpRegister registerSize">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+						<form action="post" class="form-horizontal">
+							<div class="form-group">
+								<input type="text" placeholder="Име" name="име" class="form-control" required>
+							</div>
+							<div class="form-group">
+								<input type="text" placeholder="Презиме" name="презиме" class="form-control" required>
+							</div>
+							<div class="form-group">
+								<input type="text" placeholder="Компанија" name="компанија" class="form-control" required>
+							</div>
+							<div class="form-group">
+								<input type="email" placeholder="Маил" name="маил" class="form-control" required>
+							</div>
+							<div class="form-group">
+								<input type="number" placeholder="Телефонски број" name="број" class="form-control" required>
+							</div>
+							
+								<div class="form-group text-center mleft">
+								<p class="textBold textWhite">Број на вработени</p>
+								<select name="Employees" id="Emplye" name="BrojVraboteni" class="form-control" required>
+									<option value="1">1</option>
+									<option value="2-10">2-10</option>
+									<option value="11-50">11-50</option>
+									<option value="51-200">51-200</option>
+									<option value="200+">200+</option>
+								</select>
+								
+							</div>
+							<div class="form-group text-center mleft">
+								<p class="textBold textWhite">Сектор</p>
+								<select name="Employees" id="Emplye" name="Sektor" class="form-control" required>
+									<option value="Човечки ресурси">Човечки ресурси</option>
+									<option value="Маркетинг">Маркетинг</option>
+									<option value="Продукт">Продукт</option>
+									<option value="Продажба">Продажба</option>
+									<option value="Ceo">ЦЕО</option>
+									<option value="Друго">Друго</option>
+								</select>
+							</div>
+							
+							<div class="form-group">
+				                <textarea class="form-control registerTextArea" name="Порака" name="area" id="area"  maxlength="300" placeholder="Ве молиме користете го овој простор за да ни кажете повеќе за вашите потреби. Нашиот тим може да направат сопствени решенија околу реквизирањето, подигнување, вградување, ангажирање и споредување на вашиот талент." required></textarea>
+				            </div>
+				            <div class="form-group">
+				            	<button type="submit" value="submit" class="btn btn-block btn-default registerBTN">Регистрирај се</button>
+				            </div>
+						</form>
+					</div>
+				</div>
+					
+					</div>
+		</div>
+		<div class="row footer">
+			<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 Footer">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center text-right hidden-lg hidden-md hidden-sm">
+						<ul class="list-unstyled list-inline socialLinks bottomLinks">
+							<li><a href="https://www.linkedin.com/school/brainster-co/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+							<li><a href="https://twitter.com/BrainsterCo" target="_blank"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="https://www.facebook.com/brainster.co" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center lastLeftLinks">
+						<ul class="list-unstyled list-inline bottomLinks bottomLinksMiddle">
+							<li><a href="aboutus.html" target="_blank">За нас</a></li>
+							<li><a href="contact.html" target="_blank">Контакт</a></li>
+							<li><a href="https://www.facebook.com/pg/brainster.co/photos/" target="_blank">Галерија</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 hidden-xs imgBottom text-center">
+						<a href="index.html"><img src="images/logo.png" alt=""></a>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center hidden-xs">
+						<ul class="list-unstyled list-inline socialLinks bottomLinks">
+							<li><a href="https://www.linkedin.com/school/brainster-co/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+							<li><a href="https://twitter.com/BrainsterCo" target="_blank"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="https://www.facebook.com/brainster.co" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 hidden-lg hidden-md hidden-sm imgBottom text-center">
+						<a href="index.html"><img src="images/logo.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+    
+
+<div class="modal left fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<img src="images/logo.png" alt="" class="img-responsive imgModal">
+				</div>
+
+				<div class="modal-body links">
+					<ul class="list-unstyled">
+						<li><a href="registerForm.html" target="_blank">
+							Регистрирај се
+						</a></li>
+						<li><a href="login.html" target="_blank">
+							Најави се
+						</a></li>
+						<li><a href="aboutus.html" target="_blank">
+							За нас
+						</a></li>
+						<li><a href="https://www.facebook.com/pg/brainster.co/photos/" target="_blank">
+							Галерија
+						</a></li>
+						<li><a href="contact.html" target="_blank">
+							Контакт
+						</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+  <script
+   src="https://code.jquery.com/jquery-3.3.1.js"integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="crossorigin="anonymous">
+   </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,1525 @@
+
+body {
+  transition: background-color .5s;
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
+}
+#bgWrapper{
+   background-image:
+    linear-gradient(
+      170deg,
+      #431781,
+      #431781 20%,
+      #ffff 20.08%,
+      #ffff 80%,
+      #431781 80.08%
+    );
+}
+
+.gamepadbot{
+  padding-bottom: 3%;
+}
+.padbotIndexPage{
+  padding-bottom: 8%;
+}
+.mynav{
+  position: fixed;
+  top: 0;
+  background-color: rgb(67, 23, 129);
+  display: flex;
+  width: 100%;
+  padding-top: 0.4%;
+  padding-bottom: 0.4%;
+  z-index: 9999;
+  border-bottom: 1px solid rgb(77, 33, 159);
+}
+.mynav2{
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  padding-top: 0.4%;
+  padding-bottom: 0.4%;
+  z-index: 9999;
+}
+.Meni{
+  width: 29.7%;
+}
+.LOGO{
+  width: 40%;
+}
+.LOGO a{
+  width: 24%;
+}
+.LOGO img{
+  width: 100%;
+}
+.flexIMG{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Buttons{
+  width: 29.7%;
+}
+.yellowText{
+  color: #EFD400;
+  font-size:30px;
+  cursor:pointer;
+}
+.Buttons>a{
+  padding: 1.4% 1.4%;
+}
+.Buttons>a:nth-child(1){
+  margin-right: 4%;
+}
+.contactBG{
+  background-image: -webkit-linear-gradient(-25deg,rgb(239, 212, 0)  49.9%, #242b3d 50%);
+  margin-top: 52px;
+  height: 100vh;
+}
+
+textarea{
+  resize: none;
+}
+.flexbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+.flexMeni{
+  display: flex;
+}
+.yLink{
+  background-color: rgb(239, 212, 0);
+  color: black;
+  border-radius: 5px;
+}
+.yLink:hover{
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+.bLink{
+  background-color: black;
+  color: yellow;
+  border-radius: 5px;
+}
+.bLink:hover{
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+.padtop{
+  padding-top: 83px;
+}
+.modal.left .modal-dialog{
+  position: fixed;
+  margin: auto;
+  width: 320px;
+  height: 100%;
+  -webkit-transform: translate3d(0%, 0, 0);
+  -ms-transform: translate3d(0%, 0, 0);
+  -o-transform: translate3d(0%, 0, 0);
+  transform: translate3d(0%, 0, 0);
+}
+.modal.left .modal-body, {
+  padding: 15px 15px 80px;
+}
+.modal.left.fade .modal-dialog{
+  left: -320px;
+  -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+  -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+  -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+  transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+.indexPageBotPad{
+  padding-bottom: 8%;
+}
+.modal.left.fade.in .modal-dialog{
+  left: 0;
+}
+.modal-header{
+  border-bottom: 0px;
+}
+.modal-content{
+  height: 100vh;
+}
+.imgModal{
+  width: 60%;
+}
+.modal-header .close{
+  margin-top: 5%;
+}
+.modal-header .close:hover{
+  color: black;
+  font-size: 28px;
+}
+.links{
+  padding-top: 50px;
+}
+.links ul li a {
+  color: black;
+  font-size: 20px;
+}
+.links ul li a:hover{
+  color: yellow;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.links ul li{
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.modal-open {
+  padding-right: 0px !important;
+}
+.modal-open .mynav,.mynav2{
+  z-index: 1;
+}
+.yellowLink{
+  color: yellow;
+  text-decoration: underline;
+}
+.yellowLink:hover{
+  color: yellow;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.whiteText{
+  color: white;
+}
+.textBold{
+  font-weight: bold;
+}
+.pdtp{
+  padding-top: 2%;
+}
+.buttons2>a{
+  padding: 0.9% 1%;
+}
+.buttons2>a:nth-child(1){
+  margin-right: 1%;
+}
+.pdtp6{
+  padding-top: 2%;
+}
+.pdtp2{
+  padding-top: 3%;
+}
+.pdtp22{
+  padding-top: 2%;
+}
+.yLink3{
+  padding: 1% 1%;
+}
+.pdtp5{
+  padding-top: 5%;
+}
+.card{
+  -webkit-transition: background 1s;
+  transition: background 1s;
+  background-color: black;
+  border-radius: 8px;
+  -webkit-box-shadow: 4px 5px 6px 6px rgba(0,0,0,0.33);
+  -moz-box-shadow: 4px 5px 6px 6px rgba(0,0,0,0.33);
+  box-shadow: 4px 5px 6px 6px rgba(0,0,0,0.33);
+}
+.card:hover{
+  -webkit-box-shadow: 5px 4px 15px 7px rgba(0,0,0,0.75);
+-moz-box-shadow: 5px 4px 15px 7px rgba(0,0,0,0.75);
+box-shadow: 5px 4px 15px 7px rgba(0,0,0,0.75);
+  cursor: pointer;
+}
+.singlePageLink2{
+  border: 1px solid white;
+}
+.cardtop{
+  padding: 2%;
+}
+.cardtop img{
+  width: 68%;
+  margin: 0 auto;
+}
+.bottom{
+  padding: 2%;
+  background-color: white;
+  border-radius: 0 0 8px 8px;
+  padding-left: 4%;
+}
+.textBlack{
+  color: black;
+}
+.aquaText{
+  color: aqua;
+}
+.padLeft{
+  padding-left: 1%;
+}
+.padLeft i{
+  font-size: 25px;
+  margin-right: 3%;
+}
+.pdtp2bot{
+  padding-bottom: 4%;
+}
+.miniFlex{
+  display: flex;
+}
+.miniFlex1{
+  display: flex;
+}
+.miniLogo{
+  width: 20%;
+}
+.miniFlex i {
+  color: black;
+}
+.miniLogo img{
+  width: 100%;
+  background-color: black;
+}
+.singlePageBG{
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 64%, 0 90%);
+  clip-path: polygon(0 0, 100% 0, 100% 65%, 0 92%);
+  background-image: url('../images/gamesFinal.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.rgbaColor{
+  background-color: rgba(0, 0, 0,0.8);
+  clip-path: polygon(0 0, 100% 0, 100% 65%, 0 92%);
+  height: 100%;
+}
+.singlePageBG img{
+  width: 85%;
+}
+.pdtp4{
+  padding-top: 3%;
+}
+.size h2{
+  font-size: 100px;
+  padding-top: 7%;
+  color: #4380E4;
+}
+.size .secoundPage{
+  font-size: 70px;
+}
+.italic{
+  font-style: italic;
+}
+.dFlex{
+  display: flex;
+  width: 100%: ;
+  background-color: rgb(234, 234, 234);
+  border-radius: 10px;
+}
+.item{
+  display: flex;
+  flex-direction: column;
+  height: 12vh;
+  width: 24.5%;
+  justify-content: center;
+}
+.item p{
+  margin-bottom: 0;
+}
+.borderBottom{
+  border-bottom: 1px solid grey;
+}
+.pdbt{
+  padding-bottom: 1%;
+}
+.letterSpace{
+  line-height: 22px;
+}
+.yLink3Bot a{
+  padding: 1% 1%;
+}
+.textbotPad{
+  padding-bottom: 3%;
+}
+.footer{
+  background-color: rgb(67, 23, 129);
+  border-top: 1px solid rgb(77, 33, 159);
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.bottomLinks{
+  margin: 0;
+  margin-top: 2%;
+}
+.bottomLinks li a{
+  color: white;
+}
+.bottomLinks li a:hover{
+  color: yellow;
+  transition: 0.4s;
+  text-decoration: none;
+}
+.bottomLinks li{
+  margin-left: 5%;
+}
+.imgBottom img{
+  width: 30%;
+}
+.socialLinks i{
+  color: yellow;
+  font-size: 22px;
+}
+.socialLinks li{
+  margin-right: 5%;
+}
+.socialLinks i:hover{
+  color: white;
+  transition: 0.3;
+}
+.secoundBG2{
+ background-image: linear-gradient(-10deg,rgb(67, 23, 129)59.8%, rgb(255, 255, 255) 60%);
+}
+.pdtp3{
+  padding-top: 20%;
+}
+.textWhite{
+  color: white;
+}
+input{
+  color: white;
+}
+.form input,p,select{
+  margin-left: 2%;
+}
+select option{
+  color: black;
+}
+select{
+  color: white;
+  opacity: 0.7;
+}
+.form-control{
+  color: white;
+}
+.form-group input,.form-control{
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgb(239, 212, 0);
+  outline: none;
+  border-radius: 0;
+}
+.form-group{
+  padding: 1%;
+  margin-bottom: 0;
+}
+.form-group textarea {
+  height: 17vh;
+  margin-left: 2%;
+}
+
+.squares{
+  margin: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.newfont{
+    
+}
+.options .form-group{
+  width: 30%;
+  margin-right: 15%;
+}
+.textWhite p{
+  opacity: 1;
+}
+
+.registerBG{
+  background-image: -webkit-linear-gradient(20deg, #242b3d 48.9%,rgb(239, 212, 0) 49%);
+  height: 100vh;
+}
+
+.padtopRegister{
+  padding-top: 64px;
+}
+textarea{
+  padding: 1%;
+  color: white;
+}
+.form-group button{
+  background-color: rgba(239, 212, 0, 0.9);
+  color: black;
+  margin-left: 2%;
+  font-weight: 500;
+}
+.form-group button:hover{
+  background-color: white;
+    color: black;
+}
+.mleft{
+  margin-left: 2%;
+}
+input[type="email"].big-dog::-webkit-input-placeholder {
+  color: white;
+}
+.form-control:focus{
+  box-shadow: none;
+  border-color: rgb(239, 212, 0);
+}
+.form-group textarea:focus{
+  box-shadow: none;
+  outline: none;
+}
+
+.aboutUs2Bg{
+  background-image: url('../images/contactpage.png');
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-color: #212121;
+  background-blend-mode: overlay;
+  background-position: center;
+}
+.aboutUs2Rgba{
+  height: 100%;
+}
+.aboutUs2Rgba h1{
+  font-size: 50px;
+  margin-top: 10px;
+}
+.aboutUs2Rgba h5 i {
+  margin-right: 10px;
+  transform: rotateZ(44deg);
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+.aboutUs2Rgba p {
+  opacity: 0.9;
+  line-height: 27px;
+  font-size: 16px;
+  font-weight: 100;
+}
+.brainsterLink{
+  color: rgb(239, 212, 0);
+  font-size: 17px;
+}
+.brainsterLink:hover{
+  color: rgba(239, 212, 0,0.5);
+  text-decoration: none;
+}
+.h3width{
+  margin: 0 auto;
+  font-size: 28px;
+}
+.padtpbt{
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.padtopSingle{
+  padding-top: 75px;
+}
+.pdtpSingle{
+  padding-top: 8%;
+  padding-bottom: 12%;
+}
+.footerAboutUs{
+  background-color: transparent;
+  border-top: none;
+}
+.firstText{
+  margin-top: 1%;
+}
+.padtopAboutUs{
+  padding-top: 55px;
+}
+.contactForm input,.contactForm .contactArea{
+  padding: 4%;
+  padding-left: 3%;
+  border-radius: 0;
+  outline: none;
+  box-shadow: none;
+}
+.form-group .contactArea{
+  margin-left: 0;
+  padding-top: 1%;
+}
+.btnContact{
+  border-radius: 0;
+  margin-top: 5%;
+}
+.btnContact:hover{
+  font-weight: bold;
+}
+.pdtpRegister{
+  padding-top: 4%;
+}
+.bgLogin{
+  background-color: #242b3d;
+  height: 100vh;
+}
+.dFlexLogin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.formWrap{
+  width: 33%;
+  position: relative;
+  height: 400px;
+  background-color: white;
+  border-radius: 3px;
+  padding-top: 50px;
+   padding-left: 75px;
+  padding-right: 75px;
+}
+.formWrap:after{
+  content: " ";
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 40px solid white;
+  border-left: 40px solid transparent;
+  position: absolute;
+  top: -20%;
+  left: 50%;
+  margin-left: -40px;
+}
+
+.login form{
+  margin: 0 auto;
+}
+.facebook{
+  background-color: #3b5998;
+  color: white;
+  
+}
+.facebook:hover{
+  background-color: white;
+  border: 1px solid #3b5998;
+  color: #3b5998;
+  font-weight: bold;
+}
+.google{
+  background-color: #d9534f;
+  color: white;
+}
+.google:hover{
+  background-color: white;
+  border: 1px solid #d9534f;
+  color: #d9534f;
+  font-weight: bold;
+}
+.buttonLogin{
+  background-color: rgb(77, 33, 159);
+  border-radius: 0;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+}
+.buttonLogin:hover{
+  color: white;
+}
+.buttonLogin .spaN {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  font-size: 18px;
+}
+.buttonLogin .spaN:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  transition: 0.5s;
+}
+.buttonLogin:hover .spaN {
+  padding-right: 20px;
+}
+.buttonLogin:hover .spaN:after {
+  opacity: 1;
+  right: 0;
+}
+.loginSocialLinks{
+  padding-top: 5%;
+}
+.loginSocialLinks button{
+  padding: 15px;
+  font-size: 12px;
+  border-radius: 0;
+}
+.login input{
+  background-color: lightgrey;
+  padding: 10px;
+  color: black;
+  border: none;
+  height: 45px;
+}
+.loginText{
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(77, 33, 159);
+}
+.login i{
+  color: white;
+}
+.padLogin a{
+  color: rgb(77, 33, 159);
+  font-weight: bold;
+  border-bottom: 1px solid rgb(77, 33, 159);
+}
+.padLogin a:hover{
+  text-decoration: none;
+  opacity: 0.9;
+}
+.login input::placeholder{
+  color: rgb(77, 33, 159);
+}
+.login input:focus{
+  border: 2px solid rgb(77, 33, 159);
+  outline: none;
+}
+.login span{
+  background-color: rgb(77, 33, 159);
+}
+.padLogin{
+  padding-bottom: 15px;
+}
+.indexPage a:hover{
+  text-decoration: none;
+}
+.lastTextAboutUs{
+  padding-bottom: 2%;
+}
+.aboutUs2Rgba h1{
+  margin-top: 0;
+}
+.mrgRight{
+  width: 75%;
+  margin-right: 3%;
+}
+.dashed li:before{
+  content: "-";
+  text-indent: -5px;
+}
+.registerBTN{
+  margin-top: 3%;
+}
+.registerBTN:hover{
+  font-weight: bold;
+}
+.pdtp3Single{
+  padding-bottom: 9%;
+}
+.downPar{
+  padding-top: 0;
+}
+.responsibilities{
+  font-weight: bold;
+}
+.responsibilities:hover{
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 2560px){
+  .registerBTN{
+    font-size: 35px;
+  }
+  .registerSize{
+    font-size: 30px;
+  }
+  .registerSize input, .registerSize textarea, .registerSize select{
+    font-size: 20px;
+  }
+  .registerSize input{
+    padding: 3%;
+  }
+  .aboutUs2Rgba p{
+    font-size: 27px;
+    line-height: 40px;
+  }
+  .aboutUs2Rgba h5{
+    font-size: 30px;
+  }
+  .aboutUs2Rgba h3{
+    font-size: 50px;
+  }
+  .aboutUs2Rgba h1{
+    font-size: 80px;
+  }
+  .downText{
+    font-size: 70px;
+  }
+  .contactTextSize{
+    font-size: 25px;
+  }
+  .size .secoundPage{
+    font-size: 115px;
+  }
+  .pdtpRegister{
+    padding-top: 5%;
+  }
+  .contactBG{
+    padding-top: 200px;
+  }
+  .formWrap{
+    height: 500px;
+  }
+  .formWrap:after{
+    top: -15%;
+  }
+  .padLogin{
+    padding-top: 10px;
+  }
+  .padLogin2{
+    padding-bottom: 25px;
+  }
+  .login input{
+    height: 55px;
+  }
+  .loginText{
+    font-size: 17px;
+  }
+  .kText{
+    font-size: 23px;
+  }
+  .letterSpace{
+    line-height: 40px;
+    font-size: 25px;
+  }
+  .size h2{
+    font-size: 150px;
+  }
+  .pdtpRegister input,textarea{
+    outline: none;
+    box-shadow: none;
+  }
+  .size .twelvePage{
+    font-size: 120px;
+    margin-top: 10%;
+  }
+  .size .fourtheenPage{
+    font-size: 145px;
+  }
+  .size .fiftheenPage{
+    font-size: 130px;
+  }
+  .size .elevenPage{
+    font-size: 120px;
+  }
+  .bottomText,.topText{
+    font-size: 75px;
+  }
+  .Buttons > a{
+    padding: 1.5% 1.5%;
+    font-size: 15px;
+  }
+  .size .eighteenPage{
+    font-size: 120px;
+  }
+  .btnContact{
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 2000px){
+  .registerBTN{
+    font-size: 15px;
+  }
+  .registerSize{
+    font-size: 13px;
+  }
+  .registerSize input, .registerSize textarea, .registerSize select{
+    font-size: 13px;
+  }
+  
+  .Buttons > a{
+    padding: 1.4% 1.4%;
+    font-size: 12px;
+  }
+  .size .twelvePage{
+    margin-top: 6%;
+  }
+  .aboutUs2Rgba h5{
+    font-size: 18px;
+  }
+  .aboutUs2Rgba h3{
+    font-size: 23px;
+  }
+  .aboutUs2Rgba h1{
+    font-size: 50px;
+  }
+  .aboutUs2Rgba p{
+    font-size: 16px;
+    line-height: 27px;
+  }
+  
+  .downText{
+    font-size: 35px;
+  }
+  .size .twelvePage{
+    font-size: 74px;
+  }
+  .size .secoundPage{
+    font-size: 70px;
+  }
+  .contactTextSize{
+    font-size: 14px;
+  }
+  .pdtpRegister{
+    padding-top: 5%;
+  }
+  .size h2{
+    font-size: 100px;
+  }
+  .contactBG{
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+  .formWrap{
+    height: 400px;
+  }
+  .formWrap:after{
+    top: -20%;
+  }
+  .kTextL{
+    font-size: 12px;
+  }
+  .kText{
+    font-size: 14px;
+  }
+  .padLogin{
+    padding-top: 0px;
+  }
+  .padLogin2{
+    padding-bottom: 10px;
+  }
+  .login input{
+    height: 45px;
+  }
+  .loginText{
+    font-size: 12px;
+  }
+  .letterSpace{
+    line-height: 22px;
+    font-size: 14px;
+  }
+  .item > span{
+   font-size: 13px;
+  }
+  .size .ninePage{
+    font-size: 88px;
+  }
+  .size .fourtheenPage{
+    font-size: 93px;
+  }
+  .size .fiftheenPage{
+    font-size: 80px;
+  }
+  .size .elevenPage{
+    font-size: 70px;
+  }
+  .bottomText,.topText{
+    font-size: 35px;
+  }
+  .size .eighteenPage{
+    font-size: 70px;
+  }
+  .btnContact{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1440px){
+  .size .twelvePage{
+    font-size: 69px;
+  }
+  .size .elevenPage{
+    font-size: 65px;
+  }
+  .size .tenPage{
+    font-size: 85px;
+  }
+  .animated{
+  margin-top: 0;
+  }
+  .pdtpRegister{
+    padding-top: 3%;
+    padding-bottom: 2%;
+  }
+  .loginText{
+    font-size: 10px;
+  }
+  .size .fifthPage{
+    font-size: 95px;
+  }
+  .contactForm{
+    padding-top: 4%;
+  }
+  .size .ninePage{
+    font-size: 80px;
+  }
+  .size .fiftheenPage{
+    font-size: 73px;
+  }
+  .size .eighteenPage{
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 1024px){
+  .registerSize textarea{
+    height: 20vh;
+  }
+  .size .twelvePage{
+    font-size: 65px;
+    margin-top: 8%;
+  }
+  .size .elevenPage{
+    font-size: 45px;
+    margin-top: 12%;
+  }
+  .size .thirteenPage{
+    font-size: 65px;
+    margin-top: 0; 
+  }
+  .size .tenPage{
+    font-size: 60px;
+  }
+  .size .ninePage{
+    font-size: 60px;
+  }
+  .registerBG{
+    padding-bottom: 3%;
+    margin-top: 3%;
+    height: auto;
+  }
+  .size .fifthPage{
+    font-size: 66px;
+  }
+  .padtopSingle{
+    padding-top: 55px;
+  }
+  .aboutUs2Bg{
+    height: auto;
+  }
+  .mrgRight p {
+    font-size: 11px;
+  }
+  .kTextL{
+    font-size: 12px;
+  }
+  .size h2{
+    font-size: 80px;
+  }
+  .LOGO a{
+    width: 35%;
+  }
+  .singlePageBG img{
+    width: 90%;
+  }
+  .h3width{
+    font-size: 25px;
+  }
+  .pdtp3{
+    padding-top: 25%;
+  }
+  .yLink3Bot a{
+    padding: 1.5% 1.5%;
+  }
+  .yLink3{
+    padding: 1.5% 1.5%;
+  }
+  .ass{
+    margin-bottom: 2%;
+  }
+  .pdbt2{
+    padding-bottom: 3%;
+  }
+  .formWrap{
+    width: 46%;
+  }
+  .size .secoundPage{
+  font-size: 60px;
+  }
+  .pdtpSingle{
+    padding-top: 13%;
+    padding-bottom: 20%;
+  }
+  .item > span{
+   font-size: 10px;
+  }
+  .size .fourthPage{
+  font-size: 70px;
+  }
+  .size .eightPage{
+    font-size: 70px;
+  }
+  .mrgRight {
+    width: 82%;
+    margin-right: 0;
+  }
+  .mrgRight h5{
+    font-size: 11px;
+  }
+  .miniLogo{
+    width: 17%;
+  }
+  .size .fiftheenPage{
+    font-size: 78px;
+  }
+  .size .eighteenPage{
+    font-size: 50px;
+  }
+  .imgBottom img{
+    width: 40%;
+  }
+}
+/* -----Media------ */
+@media screen and (max-width: 768px){
+
+  .size .thirdPage{
+    margin-top: 0;
+  }
+  .size .firstPage{
+    margin-top: 0;
+  }
+  .size .fifthPage{
+    font-size: 55px;
+    margin-top: 0;
+  }
+  .size .twelvePage{
+    font-size: 60px;
+    margin-top: 0%;
+  }
+  .size .elevenPage{
+    font-size: 39px;
+    margin-top: 3%;
+  }
+  .size .thirteenPage{
+    font-size: 55px;
+  }
+   .size .tenPage{
+    font-size: 52px;
+    margin-top: 3%;
+  }
+  .size .fiftheenPage{
+    font-size: 65px;
+  }
+  .size .ninePage{
+    font-size: 50px;
+    margin-top: 2%;
+  }
+  .size .eightPage{
+    font-size: 57px;
+    margin-top: 0;
+  }
+  .contactForm{
+    padding-top: 0%;
+  }
+  .registerBG{
+    margin-top: 0;
+  }
+  .mrgRight p {
+    font-size: 13px;
+  }
+  .size .fourthPage{
+  font-size: 60px;
+  margin-top: 0;
+  }
+  .item > span{
+   font-size: 14px;
+  }
+  .contactBG{
+    background-image: none;
+    background-color: #242b3d;
+  }
+  .formWrap {
+    width: 70%;
+  }
+  .dFlexLogin{
+    height: 80%;
+  }
+  .flexbtn{
+    display: none;
+  }
+  .ass{
+    margin-bottom: 2%;
+  }
+  .pdbt2{
+    padding-bottom: 4%;
+  }
+  .pdtp4{
+    padding-top: 4%;
+    padding-bottom: 1%;
+  }
+  .yLink3{
+    padding: 2% 1%;
+  }
+  .buttons2 > a{
+    padding: 1.5% 1.5%;
+  }
+  .card{
+    margin-top: 6%;
+    margin-bottom: 5%;
+  }
+
+  .pdtp2{
+    padding-top: 0%;
+  }
+  .buttons2{
+    margin-bottom: 5%;
+  }
+  .buttons2Login{
+    margin-top: 8%;
+  }
+  .pdtp{
+    padding-top: 0;
+  }
+  .imgBottom img{
+    width: 50%;
+  }
+  .padtopSingle{
+    padding-top: 53px;
+  }
+  
+  .size h2{
+    margin-top: 10%;
+    font-size: 65px;
+  }
+  .size .secoundPage{
+  font-size: 50px;
+  margin-top: 0;
+  }
+  .singlePageBG img{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .singlePB{
+    margin-top: 13%;
+  }
+  .dFlex{
+    width: 95%;
+    margin: 0 auto;
+  }
+  .padtopbotSingle{
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .pdtp6{
+    padding-top: 4%;
+  }
+  .bottomLinks{
+    font-weight: 100;
+  }
+  .h3width {
+    width: 100%;
+    font-size: 20px;
+  }
+  .aboutUs2Rgba h1{
+    margin-top: 0;
+  }
+  .registerBG{
+    background-image: none;
+    background-color: #242b3d;
+    padding-bottom: 10%;
+  }
+  .registerbLink2{
+    border: 1px solid white;
+  }
+  .dFlex{
+    flex-direction: column;
+  }
+  .item{
+        align-items: flex-start;
+        width: 90%;
+        margin-left: 3%;
+  }
+  .item > span{
+    margin-left: 5%;
+  }
+  .buttons2Contact{
+    margin-bottom: 10%;
+  }
+   .indexPageBotPad{
+    padding-bottom: 8%;
+  }
+  .pdtpSingle{
+    padding-top: 4%;
+    padding-bottom: 23%;
+  }
+  .pdtp3Single{
+    padding-top: 29%;
+    padding-bottom: 10%;
+  }
+  .mrgRight h5{
+    font-size: 12px;
+  }
+  .aboutUs2Rgba h5{
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+  .pdtpsinglefiftheen{
+    padding-top: 0;
+  }
+  .gamepadbot{
+    padding-bottom: 1%;
+  }
+  .size .eighteenPage{
+    font-size: 60px;
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 425px){
+	.miniFlex{
+    padding-bottom: 0;
+    margin-top: 2%;
+  	}
+  .padtoponPhone{
+    padding-top: 5%;
+  }
+  .studenti{
+    font-size: 10px;
+  }
+  .headPhone{
+    font-size: 23px;
+  }
+  .aboutUs2Rgba h5{
+    margin-bottom: 5%;
+    margin-top: 2%;
+  }
+  .phoneSizeText{
+    font-size: 25px;
+  }
+  .dFlexLogin{
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+  .mrgRight p {
+    font-size: 14px;
+  }
+  .mrgRight h5{
+    font-size: 15px;
+  }
+  .contactForm input,.contactForm .contactArea{
+    padding: 6%;
+    padding-left: 2%;
+  }
+  .contactForm .contactArea{
+    padding-top: 1%;
+    padding-left: 2%;
+  }
+  .yellowText {
+    font-size: 20px;
+  }
+  .singlePB {
+    padding-top: 15%;
+    padding-bottom: 35%;
+  }
+  .LOGO img{
+    width: 170%;
+  }
+  .LOGO{
+    width: 35%;
+  }
+  .LOGO a{
+    width: 40%;
+  }
+  .cardtop{
+    display: none;
+  }
+  .bottom{
+    border-radius: 8px 8px 8px 8px;
+  }
+  .imgBottom{
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+  .aboutUs2Rgba h1{
+    margin-top: 2%;
+  }
+  .imgBottom img{
+    width: 25%;
+  }
+  .bottomLinks {
+    padding-top: 1%;
+    padding-bottom: 9%;
+  }
+  
+  .socialLinks li{
+    margin-right: 3%;
+  }
+  .bottomLinks li:nth-child(3){
+    margin-right: 6%;
+  }
+  .yLink3Bot{
+    margin-bottom: 13%;
+  }
+  .yLink3Bot a{
+    padding: 3% 2%;
+  }
+  .bottomLinksMiddle{
+   margin-left: 4%;
+  }
+  .bottomLinksMiddle li:nth-child(1){
+    margin-right: 2%;
+  }
+  .textbotPad {
+    padding-bottom: 10%;
+  }
+  .bottomText,.topText{
+    font-size: 25px;
+  }
+  .footer{
+    border: none;
+  }
+  .buttons2 > a{
+    padding: 2.5% 2%;
+    font-size: 12px;
+  }
+  .pdtp6{
+    padding: 0;
+  }
+  .padtop{
+    padding-top: 67px;
+  }
+  .firstText{
+    font-size: 11px;
+    margin-bottom: 3%;
+    margin-top: 3%;
+  }
+  .yLink3{
+    padding: 3% 2%;
+    font-weight: 600;
+  }
+  .lastpad{
+    padding-top: 15%;
+  }
+  .padtop{
+    padding-top: 51px;
+  }
+  .singlePB{
+    margin-top: 10%;
+  }
+  .singlePB > a{
+    padding: 3.5% 2%;
+  }
+  .dFlex{
+    flex-direction: column;
+  }
+  .item{
+        align-items: flex-start;
+        width: 90%;
+        margin-left: 3%;
+  }
+  .item > span{
+   margin-left: 7.5%;
+  }
+  .downText{
+    font-size: 25px;
+  }
+  .downPar{
+    padding-top: 2%;
+    font-size: 15px;
+    margin: 0;
+  }
+  .downButton{
+    margin-top: 7%;
+    margin-bottom: 5%;
+  }
+  .h3width{
+    font-size: 17px;
+  }
+  .buttons2Login{
+    margin-top: 17%;
+    margin-bottom: 7%;
+  }
+  .formWrap{
+    width: 90%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .loginText{
+    font-size: 9px;
+  }
+  .loginText{
+    font-weight: 100;
+  }
+  .card{
+    margin-bottom: 0;
+  }
+  .pdtp3Single{
+    padding-top: 45%;
+    padding-bottom: 10%;
+  }
+  .secoundBG2{
+    background-image: linear-gradient(-10deg,rgb(67, 23, 129)69.8%, rgb(255, 255, 255) 70%);
+  }
+  .form-group .registerTextArea{
+    height: 20vh;
+  }
+  
+}
+@media screen and (max-width: 375px){
+  .mrgRight h5{
+    font-size: 14px;
+  }
+  .phoneSizeText{
+    font-size: 22px;
+  }
+  .yellowText {
+    font-size: 16px;
+  }
+  .buttons2Login {
+    margin-top: 17%;
+  }
+  .formWrap{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .pdtp3Single{
+    padding-top: 55%;
+  }
+  .sixteen .headPhone{
+    font-size: 20px;
+  }
+  .form-group .registerTextArea{
+    height: 25vh;
+  }
+}
+@media screen and (max-width: 320px){
+  .yellowText {
+    font-size: 13px;
+  }
+  .formWrap{
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .buttons2Login{
+    margin-top: 20%;
+  }
+  .downButton {
+    margin-bottom: 15%;
+    margin-top: 10%;
+  }
+  .item > span{
+   font-size: 11px;
+  }
+  .pdtp3Single{
+    padding-top: 60%;
+  }
+  .modal.left .modal-dialog{
+    width: 250px;
+  }
+  .studenti{
+  font-size: 8px;
+  }
+  .form-group .registerTextArea{
+    height: 30vh;
+  }
+}
